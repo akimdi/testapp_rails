@@ -30,7 +30,7 @@ set :use_sudo, false
 # set :format,        :pretty
 # set :log_level,     :debug
 # set :keep_releases, 5
-set :bundle_gemfile,  "rails_code/Gemfile"
+set :bundle_gemfile,  "testapp/Gemfile"
 
 ## Linked Files & Directories (Default None):
 # set :linked_files, %w{config/database.yml}
