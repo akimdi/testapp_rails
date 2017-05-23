@@ -22,7 +22,6 @@ set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, false  # Change to true if using ActiveRecord
-set :use_sudo, false
 
 ## Defaults:
 # set :scm,           :git
@@ -30,7 +29,7 @@ set :use_sudo, false
 # set :format,        :pretty
 # set :log_level,     :debug
 # set :keep_releases, 5
-set :bundle_gemfile,  "testapp_rails/Gemfile"
+set :bundle_gemfile,  "testapp/Gemfile"
 
 ## Linked Files & Directories (Default None):
 # set :linked_files, %w{config/database.yml}
